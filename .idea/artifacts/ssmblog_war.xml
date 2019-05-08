@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ssmblog:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssmblog_war</output-path>
+    <root id="archive" name="ssmblog_war.war">
+      <element id="artifact" artifact-name="ssmblog:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/webapp" />
+    </root>
+  </artifact>
+</component>
